@@ -1,9 +1,9 @@
 <script setup>
 import { ref, onMounted, computed, watch } from 'vue'
-
+import axios from 'axios';
 const todos = ref([])
 const name = ref('')
-
+var new_todos = ref([])
 const input_content = ref('')
 const input_category = ref(null)
 
@@ -42,7 +42,16 @@ const removeTodo = (todo) => {
 onMounted(() => {
 	name.value = localStorage.getItem('name') || ''
 	todos.value = JSON.parse(localStorage.getItem('todos')) || []
+	axios
+	.get('http://localhost:1337/todo/')
+	.then(response => name.value = response.data[0])
+	//.then(response => console.log(response.data[0].item))
+	//.then(response => new_todos = response.data)
+	//let parsedArray = JSON.parse(new_todos);
+	//let itemValue = parsedArray[0];
+	//console.log(new_todos); 
 })
+
 </script>
 
 <template>
