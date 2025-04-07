@@ -44,6 +44,15 @@ onMounted(() => {
 
 <template>
 
+  <div class="tech-blurb">
+    <p>
+      This page is built using <strong>Vue 3</strong> with the <strong>Composition API</strong> for reactive state management,
+      and <strong>scoped CSS</strong> for modular styling. It also uses <strong>Axios</strong> (commented out for now)
+      for potential backend integration, and leverages <strong>localStorage</strong> for client-side persistence
+      of the user's name and todo items.
+    </p>
+  </div>
+
 		<section class="greeting">
 			<h2 class="title">
 				What's up, <input type="text" id="name" placeholder="Name here" v-model="name" />
@@ -92,6 +101,8 @@ onMounted(() => {
 
 </template>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
 .greeting,
 .create-todo,
 .todo-list {
@@ -195,6 +206,25 @@ onMounted(() => {
 
 .actions .delete:hover {
   background-color: #cc0000;
+}
+
+.tech-blurb {
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(to right, #f0f0f0, #ffffff);
+  border: 2px solid #dcdcdc;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  text-align: center;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tech-blurb p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 /* 🔽 Mobile Responsiveness */

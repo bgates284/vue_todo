@@ -3,13 +3,15 @@ import { ref } from 'vue'
 import Resume from './components/Resume.vue'
 import ToDo from './components/ToDo.vue'
 import Tools from './components/Tools.vue'
+import About from './components/About.vue'
 
-const currentComponent = ref('ToDo')
+const currentComponent = ref('About')
 
 const components = {
   ToDo,
   Resume,
-  Tools
+  Tools,
+  About
 }
 </script>
 
@@ -17,9 +19,10 @@ const components = {
   <div class="wrapper">
     <!-- This nav is always visible -->
     <nav class="nav-bar">
-      <button @click="currentComponent = 'ToDo'">ToDo App</button>
+      <button @click="currentComponent = 'About'">About</button>
       <button @click="currentComponent = 'Resume'">Resume</button>
       <button @click="currentComponent = 'Tools'">Tools</button>
+      <button @click="currentComponent = 'ToDo'">ToDo Vue App</button>
     </nav>
 
     <!-- Only this changes -->
