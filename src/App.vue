@@ -2,12 +2,14 @@
 import { ref } from 'vue'
 import Resume from './components/Resume.vue'
 import ToDo from './components/ToDo.vue'
+import Tools from './components/Tools.vue'
 
 const currentComponent = ref('ToDo')
 
 const components = {
   ToDo,
-  Resume
+  Resume,
+  Tools
 }
 </script>
 
@@ -17,6 +19,7 @@ const components = {
     <nav class="nav-bar">
       <button @click="currentComponent = 'ToDo'">ToDo App</button>
       <button @click="currentComponent = 'Resume'">Resume</button>
+      <button @click="currentComponent = 'Tools'">Tools</button>
     </nav>
 
     <!-- Only this changes -->

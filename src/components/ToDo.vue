@@ -91,3 +91,133 @@ onMounted(() => {
 		</section>
 
 </template>
+<style scoped>
+.greeting,
+.create-todo,
+.todo-list {
+  padding: 1.5rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.greeting .title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.greeting input[type="text"] {
+  font-size: 1rem;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.create-todo h3,
+.todo-list h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+#create-todo-form input[type="text"],
+#create-todo-form input[type="submit"] {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.options {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.todo-list .list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.todo-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item.done input[type="text"] {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.todo-item label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.todo-content {
+  flex: 1 1 60%;
+  margin-top: 0.5rem;
+}
+
+.todo-content input[type="text"] {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.actions {
+  margin-top: 0.5rem;
+}
+
+.actions .delete {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.actions .delete:hover {
+  background-color: #cc0000;
+}
+
+/* 🔽 Mobile Responsiveness */
+@media (max-width: 600px) {
+  .todo-item {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .todo-content {
+    width: 100%;
+  }
+
+  .actions {
+    align-self: flex-end;
+  }
+
+  .options {
+    flex-direction: column;
+  }
+
+  .greeting .title {
+    font-size: 1.5rem;
+  }
+}
+</style>
