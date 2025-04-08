@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, computed, watch } from 'vue'
+import '../main.css'
 import axios from 'axios'
 
 const todos = ref([]) 

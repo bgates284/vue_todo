@@ -22,13 +22,17 @@
       <p>Let’s build something great together.</p>
     </div>
   </div>
+  <div class="footer-banner">
+  <p class="footer-text">Thanks for stopping by — let’s connect soon!</p>
+</div>
 </template>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
 .image-banner {
-  margin-top: 0;
+  margin: 0 auto; /* Center it horizontally */
+  max-width: 800px; /* Match bio-section width */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,9 +40,29 @@
               linear-gradient(to bottom, #007bff, white);
   background-blend-mode: overlay;
   padding: 2rem;
-  width: 100%;
+  width: 100%; /* Ensures it stretches within the max-width */
   border-radius: 20px 20px 0 0;
   overflow: hidden;
+}
+
+.footer-banner {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2rem;
+  background: linear-gradient(to right, #007bff, #ffffff),
+              linear-gradient(to top, #007bff, white);
+  background-blend-mode: overlay;
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+  color: rgb(4, 0, 0);
+  font-family: 'Playfair Display', serif;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .banner-text {
@@ -73,7 +97,7 @@
   margin: 2rem auto;
   padding: 2rem;
   max-width: 800px;
-  border: 2px solid #007bff;
+  /* border: 2px solid #007bff; */
   border-radius: 15px;
   background-color: #f9f9f9;
   font-family: sans-serif;
@@ -104,5 +128,15 @@
     margin: 1rem;
     padding: 1.5rem;
   }
+}
+
+html, body {
+  overflow-x: hidden;
+  scrollbar-width: auto; /* Keep vertical scroll visible */
+}
+
+/* Hide horizontal scrollbar on WebKit */
+html::-webkit-scrollbar:horizontal {
+  display: none;
 }
 </style>
