@@ -9,18 +9,24 @@
       <img class="pic" src="/Images/ProfileImage.jpg" alt="Profile image" />
     </div>
 
-    <div class="bio-section">
-      <p>
-        Hey there — I’m William Gates, a lifelong tech tinkerer turned software engineer with over a decade of experience building scalable applications, leading product initiatives, and integrating systems that make work (and life) a little smoother. My journey into tech started back when I was a kid, pulling things apart just to see how they worked — and I’ve been hooked ever since.
-      </p>
-      <p>
-        Professionally, I’m a full-stack developer and Certified Scrum Product Owner who thrives on solving complex problems and working across teams to turn big ideas into real solutions. I’ve worn a lot of hats over the years — from backend dev to product owner — and I love the challenge of making technology work better for people.
-      </p>
-      <p>
-        Outside of the screen glow, I’m a father, a community-minded neighbor, and someone who’s happiest outdoors — whether I’m wrangling chickens, soaking up the sun at the beach, or getting lost in a good book or podcast.
-      </p>
-      <p>Let’s build something great together.</p>
-    </div>
+<div class="bio-section">
+  <p>
+    I’m a results-driven Software Engineer and Certified Scrum Product Owner (CSPO) with over a decade of experience building scalable software, integrating complex systems, and solving problems with code. I specialize in full-stack development, API integrations, and product lifecycle management, with a strong foundation in C#, .NET Core, JavaScript, and SQL.
+  </p>
+  <p>
+    Over the years, I’ve led projects across a range of industries — from telecom and aviation to marketing tech and SaaS — consistently turning technical challenges into streamlined, user-focused solutions.
+  </p>
+  <p>
+    Recently, I worked as an Integration Developer at iPaaS.com, where I developed integrations for their new Marketplace platform. The environment was fast-moving and experimental, with early-stage SDKs and evolving documentation. It was a hands-on, behind-the-scenes look at what developers face when building on emerging platforms — and I gained a lot of insight into designing with resilience, debugging under pressure, and communicating clearly in ambiguous scenarios. That experience deepened my appreciation for thoughtful architecture, clean documentation, and developer-first design.
+  </p>
+  <p>
+    Whether I’m writing backend services, crafting intuitive UIs, or architecting systems that just make sense, I’m driven by one goal: building technology that helps people work smarter and move faster.
+  </p>
+  <p>
+    When I’m not coding, I enjoy mentoring newer devs, contributing to open-source tools, and experimenting with automation workflows. I’m always open to new opportunities, cool ideas, and the occasional code puzzle.
+  </p>
+  <p>Let’s build something useful.</p>
+</div>
   </div>
   <div class="footer-banner">
   <p class="footer-text">Thanks for stopping by — let’s connect soon!</p>
