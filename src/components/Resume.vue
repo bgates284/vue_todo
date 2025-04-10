@@ -10,110 +10,124 @@ const count = ref(0)
 
 <template>
   <div class="container">
+
     <h1>William Gates</h1>
-    <div class="contact">
-      North Carolina | (252) 417-3824 | <a href="mailto:wjg284@gmail.com">wjg284@gmail.com</a>
+    <p>North Carolina | (252) 417-3824 | <a href="mailto:wjg284@gmail.com">wjg284@gmail.com</a></p>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>Results-driven Software Engineer & Certified Scrum Product Owner (CSPO) with 10+ years of experience in full-stack development, API integrations, and product lifecycle management. Skilled in developing scalable software solutions, leading cross-functional teams, and streamlining business processes. Adept at translating technical requirements into actionable outcomes with expertise in C#, .Net, SQL, jQuery, and Agile methodologies.</p>
     </div>
 
     <div class="section">
-      <h2>Professional Summary</h2>
-      <p>
-        Results-driven Software Engineer & Certified Scrum Product Owner (CSPO) with 10+ years of experience in full-stack development, API integrations, and product lifecycle management. Skilled in developing scalable software solutions, leading cross-functional teams, and streamlining business processes. Adept at translating technical requirements into actionable outcomes with expertise in C#, .Net, SQL, jQuery, and Agile methodologies.
-      </p>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Programming:</strong> C#, .NET Core, Entity Framework, JavaScript, Python, PHP, Java, C++</li>
+            <li><strong>Databases:</strong> Microsoft SQL Server, Oracle SQL, SAP Hana, PostgreSQL</li>
+            <li><strong>Cloud & DevOps:</strong> Azure, AWS, Docker, Jenkins, Kubernetes, SDLC, Unit Testing</li>
+            <li><strong>Web Technologies:</strong> HTML, CSS, Bootstrap, Vue.js, jQuery, Sails.js</li>
+            <li><strong>API Development:</strong> RESTful APIs, Microservices, Integration Services</li>
+            <li><strong>Agile & Scrum:</strong> Product Ownership, Backlog Management, Roadmap Planning, Jira</li>
+            <li><strong>ETL & Data Processing:</strong> SQL, Tray.io, CloverDX, Reporting & Analytics</li>
+        </ul>
     </div>
 
     <div class="section">
-      <h2>Technical Skills</h2>
-      <p><span class="subheading">Programming:</span> C#, .NET Core, Entity Framework, JavaScript, Python, PHP, Java, C++</p>
-      <p><span class="subheading">Databases:</span> Microsoft SQL Server, Oracle SQL, SAP Hana, PostgreSQL</p>
-      <p><span class="subheading">Cloud & DevOps:</span> Azure, AWS, Docker, Jenkins, Kubernetes, SDLC, Unit Testing</p>
-      <p><span class="subheading">Web Technologies:</span> HTML, CSS, Bootstrap, Vue.js, jQuery, Sails.js</p>
-      <p><span class="subheading">API Development:</span> RESTful APIs, Microservices, Integration Services</p>
-      <p><span class="subheading">Agile & Scrum:</span> Product Ownership, Backlog Management, Roadmap Planning, Jira</p>
-      <p><span class="subheading">ETL & Data Processing:</span> SQL, Tray.io, CloverDX, Reporting & Analytics</p>
+        <h2>Professional Experience</h2>
+        <ul>
+            <li><strong>iPaaS.com | Integration Developer | Atlanta, GA</strong> (Dec 2024 – Mar 2025)
+                <ul>
+                    <li>Developed C# integrations for the iPaaS.com Marketplace to enhance automation.</li>
+                    <li>Assisted integration team, testing the integration SDK and software functionality.</li>
+                </ul>
+            </li>
+            <li><strong>Webb Design (NetApp) | Integration Specialist | San Francisco, CA</strong> (Mar 2023 – Dec 2024)
+                <ul>
+                    <li>Led marketing tech integration strategy, automating workflows and connections.</li>
+                    <li>Developed integrations for business goals using Sails.js & PostgreSQL.</li>
+                </ul>
+            </li>
+            <li><strong>Third Wave Business Systems | Product Owner | Wayne, NJ</strong> (Mar 2022 – Jan 2023)
+                <ul>
+                    <li>Defined and executed product roadmaps with third-party integrations.</li>
+                    <li>Optimized eCommerce performance using SQL, iPaaS, and Agile methodologies.</li>
+                </ul>
+            </li>
+            <li><strong>Segra | Software Engineer | Charlotte, NC</strong> (Feb 2022 – Mar 2023)
+                <ul>
+                    <li>Designed and implemented backend solutions to improve system automation.</li>
+                    <li>Developed integrations with C#, .NET Core, JavaScript, and PowerShell.</li>
+                </ul>
+            </li>
+            <li><strong>Listrak | Software Engineer | Lititz, PA</strong> (Apr 2021 – Jan 2022)
+                <ul>
+                    <li>Built full-stack SaaS digital marketing platform using C#, .Net, SQL, Vue.js.</li>
+                    <li>Applied Agile methodologies with emphasis on testing, code coverage, monitoring.</li>
+                </ul>
+            </li>
+            <li><strong>OSSID ProMach | Software Engineer | Rocky Mount, NC</strong> (Oct 2020 – Apr 2021)
+                <ul>
+                    <li>Built full-stack product management system, guiding API architecture and scalability.</li>
+                    <li>Developed class libraries to enhance functionality.</li>
+                </ul>
+            </li>
+            <li><strong>flyExclusive | Software Engineer | Kinston, NC</strong> (Aug 2017 – Oct 2020)
+                <ul>
+                    <li>Developed internal applications for operations and sales teams using .Net, C#, JQuery, Bootstrap, CSS, SQL.</li>
+                    <li>Built and maintained API microservices and a monolithic shared library.</li>
+                </ul>
+            </li>
+            <li><strong>Online Information Services | Software Engineer | Winterville, NC</strong> (Sept 2014 - Jun 2017)
+                <ul>
+                    <li>Led ETL process development using CloverDX, integrating data for reporting.</li>
+                    <li>Developed internal and external reports via web services, SFTP, SQL.</li>
+                </ul>
+            </li>
+        </ul>
     </div>
 
     <div class="section">
-      <h2>Professional Experience</h2>
-
-      <p><span class="job-title">iPaaS.com | Integration Developer</span> <span class="job-date">Dec 2024 – Mar 2025</span></p>
-      <ul>
-        <li>Developed C# integrations for the iPaaS.com Marketplace to enhance automation.</li>
-        <li>Assisted integration team, testing the integration SDK and software functionality.</li>
-      </ul>
-
-      <p><span class="job-title">Webb Design (NetApp) | Integration Specialist</span> <span class="job-date">Mar 2023 – Dec 2024</span></p>
-      <ul>
-        <li>Led marketing tech integration strategy, automating workflows and connections.</li>
-        <li>Developed integrations for business goals using Sails.js & PostgreSQL.</li>
-      </ul>
-
-      <p><span class="job-title">Third Wave Business Systems | Product Owner</span> <span class="job-date">Mar 2022 – Jan 2023</span></p>
-      <ul>
-        <li>Defined and executed product roadmaps with third-party integrations.</li>
-        <li>Optimized eCommerce performance using SQL, iPaaS, and Agile methodologies.</li>
-      </ul>
-
-      <p><span class="job-title">Segra | Software Engineer</span> <span class="job-date">Feb 2021 – Mar 2022</span></p>
-      <ul>
-        <li>Designed and implemented backend solutions to improve system automation.</li>
-        <li>Developed integrations with C#, .NET Core, JavaScript, and PowerShell.</li>
-      </ul>
-
-      <p><span class="job-title">OSSID ProMach | Software Engineer</span> <span class="job-date">Oct 2019 – Apr 2021</span></p>
-      <ul>
-        <li>Built full-stack product management system, guiding API architecture and scalability.</li>
-        <li>Developed class libraries to enhance functionality.</li>
-      </ul>
-
-      <p><span class="job-title">FlyExclusive | Software Engineer</span> <span class="job-date">Aug 2017 – Oct 2019</span></p>
-      <ul>
-        <li>Developed internal applications using .NET Core, C#, jQuery, Bootstrap, SQL.</li>
-        <li>Built and maintained API microservices and a monolithic shared library.</li>
-      </ul>
-
-      <p><span class="job-title">Online Information Services | Software Engineer</span> <span class="job-date">Sep 2014 – Jun 2017</span></p>
-      <ul>
-        <li>Led ETL process development using CloverDX, integrating data for reporting.</li>
-        <li>Developed internal and external reports via web services, SFTP, SQL.</li>
-      </ul>
+        <h2>Military Experience</h2>
+        <p><strong>U.S. Army Reserves</strong></p>
+        <ul>
+            <li>Trained in human resources and multimedia illustration.</li>
+            <li>Developed technical documentation and training materials for various projects.</li>
+            <li>Strengthened leadership, teamwork, and problem-solving skills in high-pressure environments as squad leader.</li>
+        </ul>
     </div>
 
     <div class="section">
-      <h2>Military Experience</h2>
-      <ul>
-        <li>Trained in human resources and multimedia illustration (U.S. Army Reserves).</li>
-        <li>Developed technical documentation and training materials.</li>
-        <li>Served as squad leader, honing leadership and problem-solving skills.</li>
-      </ul>
+        <h2>Other Experience</h2>
+        <ul>
+            <li>Computer Geeks (Technical Support, Web Development)</li>
+            <li>Pitt Community College (Tutor – Computer Science & IT Courses)</li>
+            <li>Grover Gaming, Inc. (Co-op Software Engineer)</li>
+        </ul>
     </div>
 
     <div class="section">
-      <h2>Other Experience</h2>
-      <ul>
-        <li>Computer Geeks (Technical Support, Web Development)</li>
-        <li>Pitt Community College (Tutor – Computer Science & IT Courses)</li>
-        <li>Grover Gaming, Inc. (Co-op Software Engineer)</li>
-      </ul>
+        <h2>Education</h2>
+        <ul>
+            <li>East Carolina University – Bachelor of Science Information & Computer Technology (2020)</li>
+            <li>Pitt Community College – Associate in Arts (2013)</li>
+        </ul>
     </div>
 
     <div class="section">
-      <h2>Education</h2>
-      <ul>
-        <li>East Carolina University – B.S. Information & Computer Technology, 2020</li>
-        <li>Pitt Community College – Associate in Arts, 2013</li>
-      </ul>
+        <h2>Certifications</h2>
+        <ul>
+            <li>Certified Scrum Product Owner (Scrum Alliance)</li>
+            <li>C++, Java, VB, and C# Programming Certifications (Pitt Community College)</li>
+            <li>Python (Coursera)</li>
+        </ul>
     </div>
 
     <div class="section">
-      <h2>Certifications</h2>
-      <ul>
-        <li>Certified Scrum Product Owner (Scrum Alliance)</li>
-        <li>C++, Java, VB, and C# Programming Certifications (Pitt Community College)</li>
-        <li>Python (Coursera)</li>
-      </ul>
+        <h2>Websites</h2>
+        <p><a href="https://www.linkedin.com/in/william-gates-038429b6/">LinkedIn Profile</a> | <a href="https://williamgates.space">Personal Website</a></p>
     </div>
-  </div>
+
+</div>
 
 </template>
 
