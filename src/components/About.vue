@@ -10,22 +10,31 @@
     </div>
 
 <div class="bio-section">
+  <h2>About Me</h2>
   <p>
-    I’m a results-driven Software Engineer and Certified Scrum Product Owner (CSPO) with over a decade of experience building scalable software, integrating complex systems, and solving problems with code. I specialize in full-stack development, API integrations, and product lifecycle management, with a strong foundation in C#, .NET Core, JavaScript, and SQL.
+    I'm a seasoned software developer and product professional with a career spanning full-stack development, systems integration, and agile product ownership. I began my journey at Online Information Services, where I led ETL development and integrated complex data sets to support debt collection operations. I also collaborated on internal tools, vendor communications, and reporting applications.
   </p>
   <p>
-    Over the years, I’ve led projects across a range of industries — from telecom and aviation to marketing tech and SaaS — consistently turning technical challenges into streamlined, user-focused solutions.
+    From there, I joined flyExclusive as a full-stack developer. My work included building an aircraft maintenance system from the ground up, contributing to shared class libraries, developing microservices, and supporting mobile and web platforms across a wide range of technologies. It was an incredibly fulfilling role that expanded both my technical and architectural knowledge.
   </p>
   <p>
-    Recently, I worked as an Integration Developer at iPaaS.com, where I developed integrations for their new Marketplace platform. The environment was fast-moving and experimental, with early-stage SDKs and evolving documentation. It was a hands-on, behind-the-scenes look at what developers face when building on emerging platforms — and I gained a lot of insight into designing with resilience, debugging under pressure, and communicating clearly in ambiguous scenarios. That experience deepened my appreciation for thoughtful architecture, clean documentation, and developer-first design.
+    I then worked solo at OSSID, developing WPF applications and SDKs to support industrial packaging machines—an interesting and deeply technical challenge, but one that left me craving more team collaboration. At Listrak, I encountered the complexities of joining a large, fast-scaling organization. Despite my efforts, the role wasn’t the right fit, but it taught me valuable lessons about communication, onboarding, and tech debt in high-growth environments.
   </p>
   <p>
-    Whether I’m writing backend services, crafting intuitive UIs, or architecting systems that just make sense, I’m driven by one goal: building technology that helps people work smarter and move faster.
+    At Segra, I dove into ERP and CRM systems, tackled legacy SQL and PowerShell scripts, and learned the importance of clarity and documentation. Despite the challenges, I found satisfaction in bringing order to chaos and exploring the power of automation.
   </p>
   <p>
-    When I’m not coding, I enjoy mentoring newer devs, contributing to open-source tools, and experimenting with automation workflows. I’m always open to new opportunities, cool ideas, and the occasional code puzzle.
+    These experiences inspired me to shift into a Certified Scrum Product Owner (CSPO) role, aiming to help teams avoid the very pitfalls I’d encountered. At Thirdwave Business Systems, I co-led the development of an SAP e-commerce integration platform. It was a highlight of my career until the company was acquired and my role dissolved.
   </p>
-  <p>Let’s build something useful.</p>
+  <p>
+    I then joined NetApp as a contractor through Webb Design. I built a full-stack internal reporting application for C-level executives using Sails.js, Vue, and PostgreSQL, and contributed broadly to automation and integration efforts using tools like Tray.io and Microsoft Power Automate. It was a rewarding role—cut short only by widespread budget cuts.
+  </p>
+  <p>
+    Most recently, I joined iPaaS.com in a challenging integration role. Although it was short-lived due to unmet expectations, I believe my time there helped pave the way for others by identifying and addressing foundational obstacles within their platform.
+  </p>
+  <p>
+    Each role, whether smooth or turbulent, has deepened my empathy, sharpened my skills, and reinforced my belief in continuous improvement, collaboration, and building things that matter.
+  </p>
 </div>
   </div>
   <div class="footer-banner">
