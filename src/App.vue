@@ -35,13 +35,13 @@ import ToDo from './components/ToDo.vue'
 import Tools from './components/Tools.vue'
 import About from './components/About.vue'
 
-const currentComponent = ref('About')
+const currentComponent = ref('Resume')
 const showMenu = ref(false)
 const isMobile = ref(window.innerWidth <= 768)
 
 const components = {
-  About,
   Resume,
+  About,
   Tools,
   ToDo
 }
