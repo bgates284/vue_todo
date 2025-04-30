@@ -11,17 +11,27 @@
   
       <div class="bio-section">
         <h1>About Me</h1>
-        <p>I'm a seasoned software engineer and Certified Scrum Product Owner (CSPO) with a passion for building scalable systems, integrating complex technologies, and driving product innovation. My career has spanned full-stack development, API architecture, and agile product leadership—each role shaping my ability to transform business challenges into technical solutions.</p>
-  
-        <h2>Career Journey</h2>
-        <p>I started at Online Information Services, where I led ETL development, streamlining data integration for reporting and operational efficiency. Moving to flyExclusive, I designed an aircraft maintenance system from the ground up, built microservices, and contributed to shared class libraries, further honing my expertise in backend architecture.</p>
-  
-        <p>At OSSID, I tackled WPF application development and SDKs for industrial packaging machines, but my passion for team collaboration led me to Listrak, where I navigated the intricacies of a fast-scaling tech organization. This experience strengthened my understanding of onboarding, tech debt, and large-scale software ecosystems.</p>
-  
-        <p>At Segra, I worked extensively with ERP and CRM systems, refining legacy SQL and PowerShell scripts while emphasizing automation. These experiences inspired my transition into product ownership, where at Thirdwave Business Systems, I co-led the development of an SAP e-commerce integration platform until the company’s acquisition.</p>
-  
-        <p>Later, as a contractor for NetApp via Webb Design, I built a full-stack internal reporting application using Sails.js, Vue, and PostgreSQL, alongside broader automation and integration efforts leveraging Tray.io and Power Automate. Most recently, at iPaaS.com, I stepped into a challenging integration role, identifying foundational obstacles to strengthen future platform development.</p>
-  
+        <div class="container">
+    <h1>Professional Journey</h1>
+
+    <p>I'm a seasoned software developer and product professional with a career spanning full-stack development, systems integration, and agile product ownership. I began my journey at Online Information Services, where I led ETL development and integrated complex data sets to support debt collection operations. I also collaborated on internal tools, vendor communications, and reporting applications.</p>
+
+    <p>From there, I joined flyExclusive as a full-stack developer. My work included building an aircraft maintenance system from the ground up, contributing to shared class libraries, developing microservices, and supporting mobile and web platforms across a wide range of technologies. It was an incredibly fulfilling role that expanded both my technical and architectural knowledge.</p>
+
+    <p>I then worked solo at OSSID, developing WPF applications and SDKs to support industrial packaging machines—an interesting and deeply technical challenge, but one that left me craving more team collaboration. At Listrak, I encountered the complexities of joining a large, fast-scaling organization. Despite my efforts, the role wasn’t the right fit, but it taught me valuable lessons about communication, onboarding, and tech debt in high-growth environments.</p>
+
+    <p>At Segra, I dove into ERP and CRM systems, tackled legacy SQL and PowerShell scripts, and learned the importance of clarity and documentation. Despite the challenges, I found satisfaction in bringing order to chaos and exploring the power of automation.</p>
+
+    <p>These experiences inspired me to shift into a Certified Scrum Product Owner (CSPO) role, aiming to help teams avoid the very pitfalls I’d encountered. At Thirdwave Business Systems, I co-led the development of an SAP e-commerce integration platform. It was a highlight of my career until the company was acquired and my role dissolved.</p>
+
+    <p>I then joined NetApp as a contractor through Webb Design. I built a full-stack internal reporting application for C-level executives using Sails.js, Vue, and PostgreSQL, and contributed broadly to automation and integration efforts using tools like Tray.io and Microsoft Power Automate. It was a rewarding role—cut short only by widespread budget cuts.</p>
+
+    <p>Most recently, I joined iPaaS.com in a challenging integration role. Although it was short-lived due to unmet expectations, I believe my time there helped pave the way for others by identifying and addressing foundational obstacles within their platform.</p>
+
+    <p>Each role, whether smooth or turbulent, has deepened my empathy, sharpened my skills, and reinforced my belief in continuous improvement, collaboration, and building things that matter.</p>
+
+</div>
+
         <h2>Philosophy & Expertise</h2>
         <p>Throughout my career, I’ve embraced continuous learning, adaptability, and collaboration—whether optimizing code, designing intuitive products, or mentoring teams to navigate technical complexity. I thrive in environments that demand strategic problem-solving and innovative solutions, always aiming to build technology that truly matters.</p>
       </div>
