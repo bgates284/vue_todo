@@ -18,12 +18,12 @@ const count = ref(0)
 
         <h2>Technical Skills</h2>
         <ul>
-            <li>Programming: C#, .NET Core, Entity Framework, JavaScript, Python, PHP, Java, C++</li>
+            <li>Programming: C#, .NET Core, Entity Framework, JavaScript, Python, PHP, Java, C++, OOP, TDD, SOLID</li>
             <li>Databases: Microsoft SQL Server, Oracle SQL, SAP Hana, PostgreSQL</li>
             <li>Cloud & DevOps: Azure, AWS, Docker, Jenkins, Kubernetes</li>
             <li>API Development: RESTful APIs, Microservices, Integration Services</li>
             <li>Agile & Scrum: Product Ownership, Backlog Management, Roadmap Planning, Jira</li>
-            <li>ETL & Data Processing: SQL, Tray.io, CloverDX, Reporting & Analytics</li>
+            <li>ETL & Data Processing: SQL, Tray.io, PowerAutomate CloverDX, Reporting & Analytics</li>
         </ul>
 
         <h2>Professional Experience</h2>
@@ -65,18 +65,21 @@ const count = ref(0)
         <ul>
             <li>Created a WPF-based labeling solution interfacing with packaging machines via TCP/IP.</li>
             <li>Built modular C#/.NET Core class libraries for reusable business logic.</li>
+            <li>Developed UI components with runtime reflection to support varied client configurations. </li>
         </ul>
 
         <h3>FlyExclusive | Software Engineer | Kinston, NC | Aug 2017 – Oct 2020</h3>
         <ul>
             <li>Designed a greenfield aircraft maintenance system used by multiple departments using ASP.Net Core, C#, SQL.</li>
             <li>Built and maintained API microservices and a monolithic shared library.</li>
+            <li>Managed CI/CD with TDD, Azure, analytics </li>
         </ul>
 
         <h3>Online Information Services | Software Engineer | Winterville, NC | Sept 2014 – Jun 2017</h3>
         <ul>
             <li>Led ETL efforts using CloverDX, managing high-volume data transformations.</li>
             <li>Automated regulatory notice delivery with external vendors.</li>
+            <li>Developed internal and external reports via web services, SFTP, SQL</li>
         </ul>
 
         <h2>Military Experience</h2>
@@ -87,8 +90,9 @@ const count = ref(0)
         </ul>
 
         <h2>Education</h2>
-        <p>East Carolina University – BS, Information & Computer Technology (course work complete)(2020)</p>
-        <p>Pitt Community College – AS, Computer Programming (2013)</p>
+        <p>East Carolina University - Bachelor of Science, Information and Computer Technology (2020)</p>
+        
+        <p>Pitt Community College - Associate in Arts, Computer Programming (2013)</p>
 
         <h2>Certifications</h2>
         <ul>

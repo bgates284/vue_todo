@@ -12,25 +12,25 @@
       <div class="bio-section">
         <h1>About Me</h1>
         <div class="container">
-    <h1>Professional Journey</h1>
+          <h1>Professional Journey</h1>
 
-    <p>I'm a seasoned software developer and product professional with a career spanning full-stack development, systems integration, and agile product ownership. I began my journey at Online Information Services, where I led ETL development and integrated complex data sets to support debt collection operations. I also collaborated on internal tools, vendor communications, and reporting applications.</p>
+          <p>I'm a seasoned software developer and product professional with a career spanning full-stack development, systems integration, and agile product ownership. I began my journey at Online Information Services, where I led ETL development and integrated complex data sets to support debt collection operations. I also collaborated on internal tools, vendor communications, and reporting applications.</p>
 
-    <p>From there, I joined flyExclusive as a full-stack developer. My work included building an aircraft maintenance system from the ground up, contributing to shared class libraries, developing microservices, and supporting mobile and web platforms across a wide range of technologies. It was an incredibly fulfilling role that expanded both my technical and architectural knowledge.</p>
+          <p>From there, I joined flyExclusive as a full-stack developer. My work included building an aircraft maintenance system from the ground up, contributing to shared class libraries, developing microservices, and supporting mobile and web platforms across a wide range of technologies. It was an incredibly fulfilling role that expanded both my technical and architectural knowledge.</p>
 
-    <p>I then worked solo at OSSID, developing WPF applications and SDKs to support industrial packaging machines—an interesting and deeply technical challenge, but one that left me craving more team collaboration. At Listrak, I encountered the complexities of joining a large, fast-scaling organization. While this contract ended, it taught me valuable lessons about communication, onboarding, and tech debt in high-growth environments.</p>
+          <p>I then worked solo at OSSID, developing WPF applications and SDKs to support industrial packaging machines—an interesting and deeply technical challenge, but one that left me craving more team collaboration. At Listrak, I encountered the complexities of joining a large, fast-scaling organization. While this contract ended, it taught me valuable lessons about communication, onboarding, and tech debt in high-growth environments.</p>
 
-    <p>At Segra (contracted through Apex), I dove into ERP and CRM systems, tackled legacy SQL and PowerShell scripts, and learned the importance of clarity and documentation. Despite the challenges, I found satisfaction in bringing order to chaos and exploring the power of automation.</p>
+          <p>At Segra (contracted through Apex), I dove into ERP and CRM systems, tackled legacy SQL and PowerShell scripts, and learned the importance of clarity and documentation. Despite the challenges, I found satisfaction in bringing order to chaos and exploring the power of automation.</p>
 
-    <p>These experiences inspired me to shift into a Certified Scrum Product Owner (CSPO) role, aiming to help teams avoid the very pitfalls I’d encountered. At Thirdwave Business Systems, I co-led the development of an SAP e-commerce integration platform. It was a highlight of my career until the company was acquired and my role dissolved.</p>
+          <p>These experiences inspired me to shift into a Certified Scrum Product Owner (CSPO) role, aiming to help teams avoid the very pitfalls I’d encountered. At Thirdwave Business Systems, I co-led the development of an SAP e-commerce integration platform. It was a highlight of my career until the company was acquired and my role dissolved.</p>
 
-    <p>I then joined NetApp as a contractor through Webb Design. I built a full-stack internal reporting application for C-level executives using Sails.js, Vue, and PostgreSQL, and contributed broadly to automation and integration efforts using tools like Tray.io and Microsoft Power Automate. It was a rewarding role—cut short only by widespread budget cuts.</p>
+          <p>I then joined NetApp as a contractor through Webb Design. I built a full-stack internal reporting application for C-level executives using Sails.js, Vue, and PostgreSQL, and contributed broadly to automation and integration efforts using tools like Tray.io and Microsoft Power Automate. It was a rewarding role—cut short only by widespread budget cuts.</p>
 
-    <p>Most recently, I joined iPaaS.com in a challenging integration role. This short-lived contract, I believe helped pave the way for others and the backend team by identifying and addressing foundational obstacles within their platform.</p>
+          <p>Most recently, I joined iPaaS.com in as an Integration Developer. This short-lived contract, I believe helped pave the way for others and the backend team by identifying and addressing foundational obstacles within their platform, where they hope in the future, other developers will build and sell integrations.</p>
 
-    <p>Each role, whether smooth or turbulent, has deepened my empathy, sharpened my skills, and reinforced my belief in continuous improvement, collaboration, and building things that matter.</p>
+          <p>Each role, whether smooth or turbulent, has deepened my empathy, sharpened my skills, and reinforced my belief in continuous improvement, collaboration, and building things that matter.</p>
 
-</div>
+        </div>
 
         <h2>Philosophy & Expertise</h2>
         <p>Throughout my career, I’ve embraced continuous learning, adaptability, and collaboration—whether optimizing code, designing intuitive products, or mentoring teams to navigate technical complexity. I thrive in environments that demand strategic problem-solving and innovative solutions, always aiming to build technology that truly matters.</p>
@@ -46,8 +46,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
 .image-banner {
-  margin: 0 auto; /* Center it horizontally */
-  max-width: 800px; /* Match bio-section width */
+  margin: 0 auto; 
+  max-width: 800px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,9 +55,15 @@
               linear-gradient(to bottom, #007bff, white);
   background-blend-mode: overlay;
   padding: 2rem;
-  width: 100%; /* Ensures it stretches within the max-width */
+  width: 100%; 
   border-radius: 20px 20px 0 0;
   overflow: hidden;
+  border-bottom: none !important;
+}
+h1, h2 {
+    margin-top: 20px;
+    border-bottom: none;
+    padding-bottom: none;
 }
 
 .footer-banner {
@@ -120,6 +126,7 @@
   line-height: 1.6;
   color: #333;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-bottom: none !important;
 }
 
 @media (max-width: 768px) {
