@@ -16,6 +16,16 @@
                 {{ name }}
               </button>
             </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://mvcportfolio-h3fdhzh7e9gfe2f6.canadaeast-01.azurewebsites.net/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                MVC Project
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -31,7 +41,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import Resume from './components/Resume.vue'
-import ToDo from './components/ToDo.vue'
+import VueProject from './components/VueProject.vue'
 import Tools from './components/Tools.vue'
 import About from './components/About.vue'
 
@@ -43,7 +53,7 @@ const components = {
   Resume,
   About,
   Tools,
-  ToDo
+  VueProject
 }
 
 const toggleMenu = () => {
