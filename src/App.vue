@@ -51,7 +51,7 @@ const isMobile = ref(window.innerWidth <= 768)
 
 const components = {
   Resume,
-  About,
+  //About,
   Tools,
   VueProject
 }
