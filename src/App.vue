@@ -43,7 +43,7 @@ import { ref, onMounted } from 'vue'
 import Resume from './components/Resume.vue'
 import VueProject from './components/VueProject.vue'
 import Tools from './components/Tools.vue'
-import About from './components/About.vue'
+//import About from './components/About.vue'
 
 const currentComponent = ref('Resume')
 const showMenu = ref(false)
