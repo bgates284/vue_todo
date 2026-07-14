@@ -14,7 +14,7 @@ const count = ref(0)
 
     <div class="content">
         <h2>Professional Summary</h2>
-        <p>Results-driven Software Engineer & Certified Scrum Product Owner (CSPO) with experience in full-stack development, API integrations, and product lifecycle management...</p>
+        <p>Enterprise Integration Engineer and Certified Scrum Product Owner with extensive experience designing API-driven integrations, leading enterprise software implementations, and building scalable automation solutions. Skilled in translating business requirements into technical architectures while serving as the bridge between engineering teams, customers, and product organizations. Experienced leveraging AI-assisted development, modern integration platforms, and cloud technologies to accelerate delivery, improve operational efficiency, and solve complex enterprise integration challenges.</p>
 
         <h2>Technical Skills</h2>
         <ul>
@@ -26,9 +26,18 @@ const count = ref(0)
             <li>ETL & Data Processing: SQL, Tray.io, PowerAutomate CloverDX, Reporting & Analytics</li>
         </ul>
 
+        <h2>AI &amp; Automation</h2>
+        <ul>
+            <li>AI Platforms: ChatGPT, Claude, GitHub Copilot, Cursor, OpenAI Codex, Gemini</li>
+            <li>LLM Development: Prompt Engineering, AI-Assisted Coding, Debugging, Documentation, Code Review</li>
+            <li>AI Integration: REST APIs, OpenAI-Compatible APIs, Function Calling, Tool Integration, JSON Schema</li>
+            <li>Agentic Systems: AI Agents, Model Context Protocol (MCP), Agentic Workflows, Context Engineering</li>
+            <li>Automation: Python Automation, Workflow Automation, AI-Driven Process Optimization</li>
+        </ul>
+
         <h2>Professional Experience</h2>
 
-        <h3>PayIt | Technical Integration Manager | Kansas City, MO | Jun 2025</h3>
+        <h3>PayIt | Technical Integration Manager | Kansas City, MO | Jun 2025 - Jul 2026</h3>
         <ul>
             <li>Working directly with government agencies and other clients to understand their existing systems and define integration requirements.</li>
             <li>Designing, developing, and implementing integrations using MuleSoft, SQL, APIs, and other middleware tools.</li>
